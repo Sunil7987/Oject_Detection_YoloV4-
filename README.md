@@ -1,7 +1,7 @@
 # Oject_Detection_YoloV4-
 ## Data Overview
 
-It's Fruits Images dataset which has Three class like-Apple,Banana,Orange and Each class has around 300 Images.I have done this project using YoloV4 model It's giving me very accurate prediction. Data Source:-[Fruits Image for object detection](https://www.kaggle.com/datasets/mbkinaci/fruit-images-for-object-detection)### Downloading the data
+It's Fruits Images dataset which has Three class like-Apple,Banana,Orange and Each class has around 300 Images.I have done this project using YoloV4 model It's giving me very accurate prediction. Data Source:-[Click Here to Download the dataset](https://www.kaggle.com/datasets/mbkinaci/fruit-images-for-object-detection).
 
 ## Library and Tools
 
@@ -30,6 +30,5 @@ It's Fruits Images dataset which has Three class like-Apple,Banana,Orange and Ea
 * Fro executing this code run this command in command prompt (streamlit run python_file_name.py)
 
 ## Final Output 
-![Screenshot (104)](https://user-images.githubusercontent.com/92671804/202404696-e33417e4-fb8d-445d-b5a3-6bbbfb094161.png)
 
 
