@@ -24,27 +24,27 @@ It's Fruits Images dataset which has Three class like-Apple,Banana,Orange and Ea
 * First We'll have one main folder and inside that folder we have two folder Train and Test(Ratio 80:20 or 75:25).
 * In Train dataset we'll have all image and their corresponding txt files and same in Test folder
 
-* If We have images and XML files so yolo doesn't support it, we need to convert it into txt format.(follow code with aarohi yolov4 on youtube)
+* If We have images and XML files so yolo doesn't support it, we need to convert it into txt format [Click Here to Convert XML format to TXT](https://github.com/Sunil7987/Oject_Detection_YoloV4-/blob/main/convert_pascal_voc_XML_to_YOLO_txt_on_Fruits_object_detection.ipynb)
 * Our dataset is ready.
 
 ### YOLOv4 Configuration-
 
-* First We have to clone the github repository of darknet.
+* First We have to clone the github repository of darknet.[Follow this Notebook](https://github.com/Sunil7987/Oject_Detection_YoloV4-/blob/main/YOLOv4_Train__Setupipynb.ipynb)
 
-* Then go into the darknet folder using command [cd darknet]
+* Then go into the darknet folder.
 
 * Now we need to make some changes in make file
 
-* now execute make using [!make]
-
 * Download the the pretrained darknet weights
 
-* Now we have to generate train.txt and test.txt file for that we have to follow one code(see in this repository ) and give the path of all the train and test images folder
+* Now we have to generate train.txt and test.txt file for that we have to follow this Notebook [Click Here](https://github.com/Sunil7987/Oject_Detection_YoloV4-/blob/main/Generate_train_txt_and_test_txt_file_for_yoloV4.ipynb)
+
+* And give the path of all the train and test images folder
+* Now we have to run the script to generate the train.txt and test.txt file.
    then we will get in our dataset folder train.txt and test.txt files
    then move these file from here to darknet data folder 
 
-* Now go into the data fold
-* 
+* Now go into the data folder
 
 here we have to make some changes in this folder files-
 
@@ -58,11 +58,14 @@ and in this file first we have to put classes name according to your dataset.
 
 * finally we have to put the path of our backup folder which would be in our darknet folder
    Now Our data.data file setup and it should be look like this-
+   
+   ![yv4](https://user-images.githubusercontent.com/92671804/202696368-d784707c-4a43-4ecd-a057-f937e9ce92c7.png)
+   
 
 
 * Now we need make some change in data.names file write all the labels name which is in your dataset
  and should be look like this:-
-
+![names](https://user-images.githubusercontent.com/92671804/202697104-f18cc24b-ad07-49f1-a96a-1803daf8fb04.png)
 
 * come to the cfg folder you will get one file named(yolov4-custom.cfg)
   
